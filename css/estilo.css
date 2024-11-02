@@ -1,0 +1,32 @@
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold; 
+}
+h1  {
+    text-align: center; 
+    margin: 0; 
+}
+h2 {
+    text-align: center; 
+    margin: 0; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+
+h2 {
+    margin-bottom: 40px; 
+}
+.carousel-inner img {
+    max-height: 500px; 
+   
+}
+
+main{
+    background-image:linear-gradient(to left, rgb(102, 43, 102), rgb(31, 4, 82), rgb(124, 57, 248));
+    color: rgb(255, 245, 245); 
+    
+}
