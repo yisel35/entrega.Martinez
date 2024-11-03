@@ -26,7 +26,26 @@ h2 {
 }
 
 main{
-    background-image:linear-gradient(to left, rgb(102, 43, 102), rgb(31, 4, 82), rgb(124, 57, 248));
+    background-color:rgb(10, 9, 9);
     color: rgb(255, 245, 245); 
-    
+    border: 5px solid rgb(253, 248, 248); 
+    padding: 20px; 
+    border-radius: 5px; 
 }
+footer .p{
+    text-align: center;
+
+}
+footer .logo {
+    text-align: center; 
+    padding: 20px; 
+    
+  }
+  
+  footer .logo img {
+    border-radius: 50%;
+  }
+
+      
+  
+  
