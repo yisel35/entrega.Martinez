@@ -32,6 +32,56 @@ main{
     padding: 20px; 
     border-radius: 5px; 
 }
+.bio-section {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    background-color: #000; 
+    color: #fff; 
+}
+
+.bio-content {
+    display: grid;
+    grid-template-areas:
+        "text images";    
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+}
+
+.bio-text {
+    grid-area: text;
+}
+
+.bio-images {
+    grid-area: images;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bio-images img {
+    width: 100%;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+
+@media (max-width: 768px) {
+    .bio-content {
+        grid-template-areas:
+            "text"
+            "images";   
+        grid-template-columns: 1fr;
+    }
+}
+h4{
+    text-align: center;
+    grid-area: text;
+}
+h6{
+    text-align: center;
+    grid-area: text;
+}
 footer .p{
     text-align: center;
 
